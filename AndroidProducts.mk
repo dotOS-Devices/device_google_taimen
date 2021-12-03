@@ -16,7 +16,6 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_taimen.mk \
-    $(LOCAL_DIR)/aosp_taimen_hwasan.mk \
     $(LOCAL_DIR)/dot_taimen.mk
 
 COMMON_LUNCH_CHOICES := \
