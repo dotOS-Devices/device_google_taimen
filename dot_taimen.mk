@@ -6,6 +6,9 @@ TARGET_BOOT_ANIMATION_RES := 1440
 # Inherit some common Dot stuff.
 $(call inherit-product, vendor/dot/config/common.mk)
 
+# GApps
+TARGET_GAPPS_ARCH := arm64
+
 # Inherit device configuration
 $(call inherit-product, device/google/taimen/aosp_taimen.mk)
 
